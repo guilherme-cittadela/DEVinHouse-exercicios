@@ -1,0 +1,38 @@
+body{
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.exercicios{
+    min-height: 600px;
+    margin: 16px;
+    border: solid 1px black;
+    display: flex;
+    text-align: center;
+}
+.semana{
+    display: flex;
+    flex-direction: column;
+    border: solid 1px black;
+}
+
+.btn-ex{
+    border-radius: 5px;
+    width: 60px;
+    display: inline-block;
+    text-align: center;
+    padding: 10px;
+    background-color: rgb(163, 155, 155);
+    text-decoration: none;
+    color: rgb(15, 14, 14);
+    transition: 0.5s;
+    margin: 3px;
+
+}
+
+.btn-ex:hover{
+    background-color: rgb(94, 86, 86);
+    color: aliceblue;    
+}
