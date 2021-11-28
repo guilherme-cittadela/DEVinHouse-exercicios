@@ -20,7 +20,7 @@ body{
 
 .btn-ex{
     border-radius: 5px;
-    width: 60px;
+    width: 80px;
     display: inline-block;
     text-align: center;
     padding: 10px;
@@ -29,6 +29,7 @@ body{
     color: rgb(15, 14, 14);
     transition: 0.5s;
     margin: 3px;
+    cursor: pointer;
 
 }
 
@@ -37,6 +38,9 @@ body{
     color: aliceblue;    
 }
 
-.enunciado{
-    font-size: 12px;
+p{
+    font-size: 14px;
+    max-width: 300px;
+    text-align: justify;
+    padding: 50px;
 }
