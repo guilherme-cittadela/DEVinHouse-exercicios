@@ -4,18 +4,17 @@ body{
     display: flex;
     justify-content: center;
     align-items: center;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana;
 }
 .exercicios{
     min-height: 600px;
     margin: 16px;
-    border: solid 1px black;
     display: flex;
     text-align: center;
 }
 .semana{
     display: flex;
     flex-direction: column;
-    border: solid 1px black;
 }
 
 .btn-ex{
