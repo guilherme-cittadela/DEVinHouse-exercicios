@@ -36,3 +36,7 @@ body{
     background-color: rgb(94, 86, 86);
     color: aliceblue;    
 }
+
+.enunciado{
+    font-size: 12px;
+}
