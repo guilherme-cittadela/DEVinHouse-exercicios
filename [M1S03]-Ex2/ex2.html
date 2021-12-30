@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DEVinHouse</title>
+    <link rel="stylesheet" href="../style.css"">
+    <link rel="stylesheet" href="style.css">
+    
+</head>
+<body>
+</body>
+    
+    <div>
+        <p>
+            Faça uma página HTML contendo 2 campos de texto (dica: input type number), 
+            para que o usuário possa inserir, em cada um, o valor que deseja calcular. 
+            Coloque também na sua página 4 botões, um indicando soma, outro subtração, 
+            outro multiplicação, e outro divisão. 
+            Adicione um outro campo de texto, apenas leitura (readonly). 
+            Quando o usuário clicar no botão de soma (multiplicação, 
+            divisão ou subtração), a sua página deve somar 
+            (multiplicar, dividir ou subtrair) 
+            os 2 valores inseridos pelo usuário e exibir o 
+            resultado no campo de texto readonly. <br>
+
+    Programe essa interatividade utilizando JavaScript.
+        </p>
+        <div id="calculator">
+            <input class="number" required id="number-one" type="number" placeholder="Digite um número">
+            <input class="number" required id="number-two" type="number" placeholder="Digite um número">
+            <a id="btn-sum" class="btn">+</a>
+            <a id="btn-multiplication" class="btn" >*</a>
+            <a id="btn-minus" class="btn">-</a>
+            <a id="btn-division" class="btn">/</a>
+            <input class="number" id="result" type="text" readonly placeholder="Resultado">
+            
+        </div>
+        <a class="btn-ex" href="../index.html">Voltar</a>
+    </div>
+    <script src="script.js"></script>
+</html>
