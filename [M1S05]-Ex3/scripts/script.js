@@ -19,7 +19,6 @@ const count = new Conta(client,
                         "4858-98", 
                         853.58)
 
-
 document.querySelector("#result").innerHTML += `Olá ${client.name}! <br>
 Informações do cliente:<br><br>
 
