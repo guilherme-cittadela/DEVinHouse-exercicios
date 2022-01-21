@@ -1,6 +1,7 @@
 import { Address } from "./Address.js"
 import { Client } from "./Client.js"
 import { Conta } from "./Conta.js"
+import { Transaction } from "./Transaction.js"
  
 
 const address = new Address('Servidão canto das pérolas', 
@@ -19,6 +20,9 @@ const count = new Conta(client,
                         "4858-98", 
                         853.58)
 
+const transaction = new Transaction(count, 500)
+transaction.deposit(count.balance , transaction.transValue)
+console.log(count.balance)
 
 document.querySelector("#result").innerHTML += `Olá ${client.name}! <br>
 Informações do cliente:<br><br>
