@@ -1,7 +1,6 @@
 
 class Address{
     constructor(logradouro, num, city, state, country, cep){
-        // this.checkInput(logradouro)
         // this.checkInput(num)
         // this.checkInput(city)
         // this.checkInput(state)
