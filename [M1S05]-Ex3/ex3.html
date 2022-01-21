@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>S05 - Exercício 3</title>
+    <link rel="stylesheet" href="../style.css">
+    <script src="./scripts/script.js" type="module" defer></script>
+    <script src="./scripts/Address.js" type="module" defer></script>
+    <script src="./scripts/Client.js" type="module" defer></script>
+</head>
+<body>
+    <div>
+        <p>
+            Crie uma nova classe para representar as informações 
+            de um endereço. A classe Endereco possui os seguintes 
+            atributos: logradouro, numero, cidade, estado, pais, cep. 
+            No constructor() desta classe, verifique se todos os 
+            valores recebidos por parâmetro são do tipo 'string' 
+            (utilize typeof). Caso algum não seja do tipo 'string', 
+            lance (throw) uma exceção com a seguinte mensagem: 
+            "Endereço inválido!". Ex.: throw 'Endereço inválido!'
+
+        </p>
+        <div id="result">
+
+        </div>
+        <p>
+            A nova classe Cliente possui os seguintes atributos: 
+            nome, cpf, endereco, numeroDoCelular. O parâmetro endereco 
+            deve ser uma instância da classe Endereco. No método 
+            constructor() da classe cliente, verifique se o parâmetro 
+            endereco é uma instância da classe Endereco (utilize 
+            instanceof), verifique também se os parâmetros restantes 
+            são todos do tipo 'string'. Caso algum parâmetro estiver 
+            incorreto, lance uma exceção (throw).
+
+            Dica: https://developer.mozilla.org/pt-BR/docs/Web/JavaScript/
+            Reference/Operators/instanceof
+        </p>
+        
+        <a class="btn-ex" href="../index.html">Voltar</a>
+
+    </div>
+</body>
+</html>
