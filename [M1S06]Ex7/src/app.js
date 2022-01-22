@@ -2,7 +2,6 @@ import Person from "./Person.js"
 import Employees  from "./Employees.js"
 
 let total = 0
-let count = 0
 const person1 = new Person("Gui", "07461190970")
 person1.print()
 const employees = [
@@ -13,17 +12,20 @@ const employees = [
 
 
 const salaryTotal = (arr) => {
-    arr.forEach(i => {
-       total=+ i.salary
+    for (let i = 0; i<arr.length; i++){
+        total += arr[i].salary
        document.querySelector('#result2').innerHTML+= 
        `
-            Funcionário: ${arr[count].name.name}<br>
-            Salário: R$ ${arr[count].salary}<br><br>
+            Funcionário: ${arr[i].name.name}<br>
+            Salário: R$ ${arr[i].salary}<br><br>
 
             
        `
-       count ++
-    });
+       }
+       
+    
+    document.querySelector('#result2').innerHTML += `
+    Salário Total: R$ ${total}`
 }
 window.onload = () =>{
     salaryTotal(employees)
