@@ -15,14 +15,14 @@ const employees = [
 const salaryTotal = (arr) => {
     arr.forEach(i => {
        total=+ i.salary
-       console.log(arr[count].name.name)
        document.querySelector('#result2').innerHTML+= 
        `
             Funcionário: ${arr[count].name.name}<br>
             Salário: R$ ${arr[count].salary}<br><br>
+
+            
        `
        count ++
-        
     });
 }
 window.onload = () =>{
