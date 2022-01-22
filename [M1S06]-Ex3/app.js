@@ -14,7 +14,8 @@ const arrayInvert = (arr, inverted) =>{
 window.onload = () => {
     arrayInvert(array, invertedArray)
     oddNumbers(array, oddArray)
-    
+    document.querySelector('#result4').innerHTML = `
+        <p>Os elementos do array <br> ao quadrado são iguais a [${squaredNumber(array)}]<p/>`
 
 }
 
@@ -32,3 +33,10 @@ const oddNumbers = (arr,odd) => {
         <p>os números ímpares do array são: [${odd}]
     `
 }
+
+const squaredNumber = (arr) => arr.map(
+    (number) => {
+        return number * number
+    }
+
+)
