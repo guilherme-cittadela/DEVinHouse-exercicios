@@ -6,7 +6,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>S06 - Exercício 7</title>
     <link rel="stylesheet" href="../style.css">
-    <script src="app.js" type="module" defer></script>
+    <script src="src/app.js" type="module" defer></script>
 </head>
 <body>
     <div>
@@ -21,6 +21,21 @@
             instância de pessoa e execute o método ‘imprime’.
         </p>
         <div id="result"></div>
+
+        <p>
+            A empresa QueroQueijo gostaria de cadastrar todos os seus 
+            funcionários e através de uma única função calcular o quanto 
+            ela gasta em sua folha de pagamento. Em um novo arquivo 
+            ‘Funcionario.js’ importe a classe Pessoa (do arquivo ‘Pessoa.js’) 
+            e crie a classe Funcionario que herda (extends) os atributos de pessoa e 
+            também possui mais os os atributos: ‘cargo’ e ‘salario’ (ambos públicos). 
+            Faça com que a classe Funcionario seja exportada como padrão. Em outro 
+            arquivo (‘app.js’), importe a classe Funcionario e crie um array (vetor) 
+            com três instâncias de Funcionario. Após, crie uma função ‘calcularSalarios’ 
+            que receba um vetor de objetos da classe Funcionario (um array de funcionários) 
+            e retorne a soma de todos os salários.
+        </p>
+        <div ><p id="result2"></p></div>
     </div>
 </body>
 </html>
